@@ -50,10 +50,12 @@ CREATE TABLE Pessoa (
     Salario DECIMAL(10, 2),
     DeptId INT,
     FOREIGN KEY (DeptId) REFERENCES Departamento(Id)
-);
+); 
+`
 
 ## Instruções DML
 
+```sql
 INSERT INTO Departamento (Id, Nome) VALUES (1, 'TI'), (2, 'Vendas');
 
 INSERT INTO Pessoa (Id, Nome, Salario, DeptId) VALUES
@@ -62,4 +64,4 @@ INSERT INTO Pessoa (Id, Nome, Salario, DeptId) VALUES
 (3, 'Sam', 60000, 2),
 (4, 'Max', 90000, 1);
 
-
+`
