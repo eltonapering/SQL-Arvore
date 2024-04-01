@@ -1,4 +1,8 @@
-# Consulta de Salário Máximo por Departamento
+## Tarefa 2 - Lógica da Árvore
+
+Foi escrito usando uma aplicação console App, conforme código disponilizado na pasta ArvoreBinariaRaizMaxima.
+
+## Tarefa 1 - Consulta de Salário Máximo por Departamento
 
 ```sql
 SELECT d.Nome as Departamento, p.Nome as Pessoa, p.Salario
