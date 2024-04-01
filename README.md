@@ -51,7 +51,8 @@ CREATE TABLE Pessoa (
     DeptId INT,
     FOREIGN KEY (DeptId) REFERENCES Departamento(Id)
 ); 
-`
+```
+
 
 ## Instruções DML
 
@@ -63,5 +64,5 @@ INSERT INTO Pessoa (Id, Nome, Salario, DeptId) VALUES
 (2, 'Henry', 80000, 2),
 (3, 'Sam', 60000, 2),
 (4, 'Max', 90000, 1);
+```
 
-`
