@@ -1,5 +1,6 @@
 # Consulta de Salário Máximo por Departamento
 
+```sql
 SELECT d.Nome as Departamento, p.Nome as Pessoa, p.Salario
 FROM Pessoa p
 INNER JOIN Departamento d ON p.DeptId = d.Id
@@ -8,6 +9,7 @@ WHERE p.Salario IN (
     FROM Pessoa
     GROUP BY DeptId
 );
+```
 
 Segue abaixo estrutura das tabelas utilizadas:
 
